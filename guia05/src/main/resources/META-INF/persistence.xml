@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+  <persistence-unit name="uesocc.edu.sv.ingenieria.prn335.entities_guia05_war_1.0-SNAPSHOTPU" transaction-type="JTA">
+    <jta-data-source>jdbc/flota_prn335</jta-data-source>
+    <class>uesocc.edu.sv.ingenieria.prn335.entities.Vehiculo</class>
+    <class>uesocc.edu.sv.ingenieria.prn335.entities.TipoEstadoReserva</class>
+    <class>uesocc.edu.sv.ingenieria.prn335.entities.EstadoReserva</class>
+    <class>uesocc.edu.sv.ingenieria.prn335.entities.ModeloParte</class>
+    <class>uesocc.edu.sv.ingenieria.prn335.entities.Modelo</class>
+    <class>uesocc.edu.sv.ingenieria.prn335.entities.Recorrido</class>
+    <class>uesocc.edu.sv.ingenieria.prn335.entities.TipoEstadoVehiculo</class>
+    <class>uesocc.edu.sv.ingenieria.prn335.entities.SubTipoParte</class>
+    <class>uesocc.edu.sv.ingenieria.prn335.entities.TipoUsuario</class>
+    <class>uesocc.edu.sv.ingenieria.prn335.entities.Parte</class>
+    <class>uesocc.edu.sv.ingenieria.prn335.entities.TipoParte</class>
+    <class>uesocc.edu.sv.ingenieria.prn335.entities.Reserva</class>
+    <class>uesocc.edu.sv.ingenieria.prn335.entities.EstadoVehiculo</class>
+    <class>uesocc.edu.sv.ingenieria.prn335.entities.Viaje</class>
+    <class>uesocc.edu.sv.ingenieria.prn335.entities.TipoVehiculo</class>
+    <class>uesocc.edu.sv.ingenieria.prn335.entities.Marca</class>
+    <exclude-unlisted-classes>true</exclude-unlisted-classes>
+    <properties/>
+  </persistence-unit>
+</persistence>
